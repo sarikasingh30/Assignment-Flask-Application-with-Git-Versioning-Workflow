@@ -12,7 +12,7 @@ a `/reset` endpoint to clear all votes and start over.
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
+   git clone https://github.com/sarikasingh30/Assignment-Flask-Application-with-Git-Versioning-Workflow.git
    cd <your-repo-name>
    ```
 2. (Recommended) Create and activate a virtual environment:
