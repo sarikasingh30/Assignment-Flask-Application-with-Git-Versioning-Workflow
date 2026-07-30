@@ -3,6 +3,7 @@ from flask import Flask, jsonify
 app = Flask(__name__)
  
 votes={}
+
 # ---------- Task 1: Basic Flask Application ----------
  
 @app.route("/")
@@ -14,6 +15,7 @@ def home():
 def health():
     return "App is running"
  
+
  
 # ---------- Task 3 Feature Implementation => (Version 1): Voting endpoints ----------
  
@@ -41,4 +43,5 @@ def reset():
     votes.clear()
     return jsonify({"message": "All votes have been reset"})
  
+
  
